@@ -1,0 +1,8 @@
+Dt_Customer --> ubah ke datetime [DONE]
+Z_CostContact --> ?
+Z_Revenue --> ?
+tambah kolom umur
+
+rentang umur, kemudian groupy per education level
+
+handling outlier in year_birth --> rata2 gajinya kemudian masuk ke umur berapa
