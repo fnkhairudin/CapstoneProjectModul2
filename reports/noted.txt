@@ -3,6 +3,11 @@ Z_CostContact --> ?
 Z_Revenue --> ?
 tambah kolom umur
 
-rentang umur, kemudian groupy per education level
+1. Place (website, catalog, store):
+- place mana yang paling menguntungkan
 
-handling outlier in year_birth --> rata2 gajinya kemudian masuk ke umur berapa
+2. Kategori umur mana saja yang banyak belanja di place diatas
+
+3. Pada umur berapa saja mereka mendaftar member ? Kemudian dirata2 ?
+
+4. product yang paling sering dibeli
