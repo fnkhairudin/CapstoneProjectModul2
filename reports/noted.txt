@@ -1,22 +1,17 @@
 Dt_Customer --> ubah ke datetime [DONE]
 Z_CostContact --> ?
 Z_Revenue --> ?
-tambah kolom umur [DONE]
-
-We should also consider encoding “Alone”, “Absurd”, and “YOLO” on the Marital_Status as “Single” since all three categories seem to indicate a life without any partner.
-
+tambah kolom umur dan age_category[DONE]
+marital_status [DONE]
+Education [DONE]
+num_children [DONE]
 
 
 [Customer Personality Analysis]
-Mana yang perlu ditingkatkan berdasarkan agar keuntungan atau performance supermarket terus bertambah ? (jenis product, place, etc ???)
+Sasaran segment seperti apa yang perlu diperhatikan agar keuntungan atau performance supermarket terus bertambah ? (jenis product, place, etc ???)
 Dilihat dari pola pembelian customernya:
 1. Place (website, catalog, store):
 - place mana yang paling menguntungkan
 2. Kategori umur mana saja yang banyak belanja di place diatas
 3. Pada umur berapa saja mereka mendaftar member ? Kemudian dirata2 ?
 4. product yang paling sering dibeli
-
-- mengganti kategori marital status ? 
-1. Mengganti kategori Widow, Alone, Absurd, YOLO menjadi Single
-2. Mengganti kategori Together menjadi Married
-3. Mempertahankan kategori Divorced
