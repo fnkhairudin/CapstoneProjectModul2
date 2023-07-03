@@ -5,13 +5,25 @@ tambah kolom umur dan age_category[DONE]
 marital_status [DONE]
 Education [DONE]
 num_children [DONE]
+Bandingkan distorsi, sebelum diimputation dan sesudah:
+A. Cek Distribusinya terlebih dahulu, kemudian sesuaikan:
+	Lakukan uji hipotesis:
+	1. Jika normal --> T-test independence double population mean
+	2. Jika tidak normal --> Wilcoxon test
+Menerima H0 atau Menerima HA dilihat dari nilai Pvaluenya
 
 
 [Customer Personality Analysis]
 Sasaran segment seperti apa yang perlu diperhatikan agar keuntungan atau performance supermarket terus bertambah ? (jenis product, place, etc ???)
 Dilihat dari pola pembelian customernya:
 1. Place (website, catalog, store):
-- place mana yang paling menguntungkan
-2. Kategori umur mana saja yang banyak belanja di place diatas
-3. Pada umur berapa saja mereka mendaftar member ? Kemudian dirata2 ?
-4. product yang paling sering dibeli
+- place mana yang paling menguntungkan. Apakah ada perbedaan antara place jumlah barang yang dibeli sama atau gak ? Misal website lebih banyak, lebih difokuskan ke sana (uji statistik)
+2. Kategori umur mana saja yang banyak belanja di place diatas. Apakah umur mempengaruhi yang jumlah yang dibeli ?
+3. Pada umur berapa saja mereka mendaftar member ? Kemudian dirata2 ? kategori umur mana yang sering spent uand
+4. product yang paling sering dibeli bagaimana hubungannya ? Misal dengan marital_status
+5. Check campaign
+
+retention rate
+
+
+Perusaahan ingin meningkatkan performance, maka diperlukan analisis data agar perusahaan dapat meningkatkan efektitas.
