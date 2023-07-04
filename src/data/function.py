@@ -117,3 +117,54 @@ def ageclass(df, cols):
         return 'middle-aged adults'
     else:
         return 'old adults'
+    
+def category(df, cols, categoryName, columnName):
+    """Function to divide categories based on mean or median as a measure of central tendency
+        How to use:
+        - df[cols] = df.apply(category, args=('cols','categoryName'), axis=1) 
+            #### cols : name of your new column, for instance: income_category
+            #### args ('cols') : name of your income column
+            #### args ('categoryName') : name of your category
+    Args:
+        df : DataFrame
+        cols (string) : which column you want to categorize (numerical column)
+        categoryName : name of your category
+        columnName : reference column
+    Return:
+        low categoryName
+        medium categoryName
+        high categoryName
+    
+    Warning:
+        You must first know whether your data distribution is normal or not normal. 
+        If it is normal then use the mean as a measure of central tendency. 
+        If it is not normal then use the median as a measure of central tendency.
+    """
+    import pyinputplus as pyip
+    from scipy.stats import median_abs_deviation 
+
+    # change dtype into int (just in case if the dtype is float)
+    # df[cols] = int(df[cols])
+
+    inputTendency = pyip.inputChoice(prompt="what is your data distribution type ?\nPlease select one of: normal or not normal ? ", choices=['Normal', 'Not normal'])
+    # if data distribution is not normal
+    if inputTendency == 'Not normal':
+        # median of your data
+        median = df[columnName].median()
+        # MAD
+        MAD = median_abs_deviation(df[columnName])
+        # conditional statements
+        if df[cols] < median-MAD: return f"low {categoryName}"
+        elif df[cols] > median-MAD and df[cols] < median-MAD: return f"medium {categoryName}"
+        else: return f"high {categoryName}"
+    
+    # if data distribution is normal
+    else:
+        # mean of your data
+        mean = df[cols].mean()
+        # standard deviation
+        std = df[cols].std()
+        # conditional statements
+        if df[cols] < mean-std: return f"low {categoryName}"
+        elif df[cols] > mean-std and df[cols] < mean-std: return f"medium {categoryName}"
+        else: return f"high {categoryName}"
