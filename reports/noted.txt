@@ -5,14 +5,21 @@ tambah kolom umur dan age_category[DONE]
 marital_status [DONE]
 Education [DONE]
 num_children [DONE]
+
 Bandingkan distorsi, sebelum diimputation dan sesudah:
 A. Cek Distribusinya terlebih dahulu, kemudian sesuaikan:
 	Lakukan uji hipotesis:
 	1. Jika normal --> T-test independence double population mean
 	2. Jika tidak normal --> Wilcoxon test
 Menerima H0 atau Menerima HA dilihat dari nilai Pvaluenya
+## Memakain kstest 2 sample, kemudian kasih keterangan tentang limitation metode tersebut
+
+## Make income_category based on MAD (if not normal)/STD (if normal)
+
+## number children --> has child (yes/no)
 
 
+----- BUSINESS PROBLEM -----
 [Customer Personality Analysis]
 Sasaran segment seperti apa yang perlu diperhatikan agar keuntungan atau performance supermarket terus bertambah ? (jenis product, place, etc ???)
 Dilihat dari pola pembelian customernya:
@@ -22,8 +29,7 @@ Dilihat dari pola pembelian customernya:
 3. Pada umur berapa saja mereka mendaftar member ? Kemudian dirata2 ? kategori umur mana yang sering spent uand
 4. product yang paling sering dibeli bagaimana hubungannya ? Misal dengan marital_status
 5. Check campaign
-
-retention rate
+6. retention rate ??
 
 
 Perusaahan ingin meningkatkan performance, maka diperlukan analisis data agar perusahaan dapat meningkatkan efektitas.
