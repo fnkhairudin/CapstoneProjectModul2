@@ -12,11 +12,11 @@ A. Cek Distribusinya terlebih dahulu, kemudian sesuaikan:
 	1. Jika normal --> T-test independence double population mean
 	2. Jika tidak normal --> Wilcoxon test
 Menerima H0 atau Menerima HA dilihat dari nilai Pvaluenya
-## Memakain kstest 2 sample, kemudian kasih keterangan tentang limitation metode tersebut
+## Memakain kstest 2 sample, kemudian kasih keterangan tentang limitation metode tersebut [DONE]
 
-## Make income_category based on MAD (if not normal)/STD (if normal)
+## Make income_category based on MAD (if not normal)/STD (if normal) [DONE]
 
-## number children --> has child (yes/no)
+## number children --> has child (yes/no) [DONE]
 
 
 ----- BUSINESS PROBLEM -----
