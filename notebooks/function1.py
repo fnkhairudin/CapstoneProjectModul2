@@ -60,8 +60,9 @@ def checkdf(df):
     a = df.info()
     print('\n----------------- df.describe() -----------------')
     b = df.describe()
+    c = df.describe(include='object')
     
-    return display(a,b)
+    return display(a,b,c)
 
 
 def dropduplicated(df):
