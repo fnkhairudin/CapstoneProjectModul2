@@ -18,6 +18,14 @@ Menerima H0 atau Menerima HA dilihat dari nilai Pvaluenya
 
 ## number children --> has child (yes/no) [DONE]
 
+bulan kapan customer yang join member banyak ?
+
+
+pernah menerima campaign atau tidak sama sekali ? sankey diagram berdasarkan 2 hal tersebut terlebih dahulu
+
+mana yang tertinggi ????
+
+- PROJECT LIMITATION
 
 ----- BUSINESS PROBLEM -----
 [Customer Personality Analysis]
