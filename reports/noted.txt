@@ -41,3 +41,11 @@ Dilihat dari pola pembelian customernya:
 
 
 Perusaahan ingin meningkatkan performance, maka diperlukan analisis data agar perusahaan dapat meningkatkan efektitas.
+
+
+
+probabilitas arahnya ke mau nambah berapa orang
+ 
+outlier significance (lihat pengaruh ke campaign yang mana)
+
+membandingkan proporsinya (jumlah data tersebut) terhadap semua jumlah data

@@ -1,0 +1,19 @@
+**_Insight_**:
+<br>
+After conducting statistical tests and plotting graphs based on has child/not, insight can be drawn that **has no child** accept more campaigns than has child at **55.14%**.
+
+**_Insight_**:
+<br>
+After conducting phik correlation, statistical tests, and plotting graphs based on marital status, insight can be drawn that **married** accept more campaigns than other income category at **58.74%**. Then the next order is **single** at **24.98%**, **divorced** at **11.59%**, and the least is **widow** at **4.70%**.
+
+**_Insight_**:
+<br>
+After conducting phik correlation, statistical tests, and plotting graphs based on income category, insight can be drawn that **high income** accept more campaigns than other income category at **56.54%**. Then the next order is **medium income** at **33.77%** and **low income** at **9.69%**.
+
+**_Insight_**:
+<br>
+After conducting statistical tests and plotting graphs based on education level, insight can be drawn that **Graduation** accept more campaigns than other education level at **49.45%**. Then the next order is **PhD** at **26.47%**, **Master** at **23.28%**, between PhD and Master there is no significant different, and the least is **Basic** at **0.80%**.
+
+**_Insight_**:
+<br>
+After conducting statistical tests and plotting graphs based on age categories, insight can be drawn that **middle-aged adults (40 years old through 59 years old)** accept more campaigns than other age categories (**47.85%**). Then the next order is **adults (18 years old through 39 years old)** at **37.96%**, **old-adults (60 years old and older)** at **13.79%**, and the least is **teenagers (13 years old through 17 years old)** at **0.40%**.
