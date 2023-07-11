@@ -49,3 +49,24 @@ probabilitas arahnya ke mau nambah berapa orang
 outlier significance (lihat pengaruh ke campaign yang mana)
 
 membandingkan proporsinya (jumlah data tersebut) terhadap semua jumlah data
+
+walauapun jumlah count orangnya sedikit, tapi dia cukup efektif karena semua accept
+
+teenagers (13 years old through 17 years old)
+widow
+has no child
+PhD
+high income
+
+
+total amount yang acc dan never CI for mean
+
+kelompokkan yang rendah berdasarkan kategori, untuk kelompok A gimana caranya biar accepted
+
+cari penyebab yang kenapa gak accept berdasarkan kelompok2?
+
+
+total amount menurun
+datafarme gak accept, gunakan test/PCA/KNN, dapet pola, analisa pola
+
+karena keterbatasan data, saya membaginya menjadi 2 kelompok lagi, karena kolom2 tersebut berhubungan cukup tinggi
