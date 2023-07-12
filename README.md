@@ -1,4 +1,4 @@
-Supermarket Customer Project
+Supermarket Customer Segmentation Analysis
 ==============================
 
 Design marketing strategies aimed at customer segmentation based on data analysis.
