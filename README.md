@@ -1,7 +1,7 @@
-Cyclistic Project
+Supermarket Customer Project
 ==============================
 
-Design marketing strategies aimed at converting casual riders into annual members.
+Design marketing strategies aimed at customer segmentation based on data analysis.
 
 Project Organization
 ------------
@@ -13,11 +13,10 @@ Project Organization
     │   ├── processed      <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
     │
-    ├── docs               <- Documentation of your project
     │
     ├── notebooks          <- Jupyter notebooks. The naming convention is a number (for ordering),
     │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    │                         `1.0-jqp-data-preperation`.
     │
     ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
     │   └── figures        <- Generated graphics and figures to be used in reporting
@@ -46,5 +45,3 @@ Project Organization
 
 
 --------
-
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
