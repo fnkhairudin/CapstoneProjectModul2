@@ -1,4 +1,4 @@
-Supermarket Customer Segmentation Analysis
+Supermarket Customer Analysis
 ==============================
 
 Design marketing strategies aimed at customer segmentation based on data analysis.
